@@ -39,8 +39,9 @@
    ``
      pip install -t lib -r requirements  
   ``
-  
-11. Instalado los requerimientos ejecutaremos   
+10. Instalar [gcloud en windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe?hl=es-419), en [mac](https://cloud.google.com/sdk/docs/install?hl=es-419#mac) o en Linux [Red-Hat based](https://cloud.google.com/sdk/docs/install?hl=es-419#rpm) o [Debian based](https://cloud.google.com/sdk/docs/install?hl=es-419#deb):
+      
+12. Instalado los requerimientos ejecutaremos   
   
     ``gcloud app deploy``
 
