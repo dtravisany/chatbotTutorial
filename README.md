@@ -2,6 +2,8 @@
 
 ## Puesta a Punto:
 
+### Descargar Repo:
+
 1. Descargar el siguiente [zip](https://drive.google.com/file/d/1Clp3mQFja-ySd9LFG296LJi-gsUPtyDm/view?usp=drive_link) o clonar el repositorio desde el [github de google](https://github.com/GoogleCloudPlatform/dialogflow-chatbot):
   
         git clone https://github.com/GoogleCloudPlatform/dialogflow-chatbot.git
@@ -9,6 +11,8 @@
 2. Si descargó el .zip, descomprimir en una carpeta que sea de fácil acceso.
   
 3. Si esta en windows abrir un anaconda prompt o equivalente, en mac o linux abrir el terminal.
+
+### Generar Ambiente:
   
 4. Crear un ambiente conda con el siguiente comando:  
   
@@ -26,6 +30,10 @@
  
 8. Navegaremos hasta la carpeta ``webhook``.
 
+### Instalar los requerimientos para el webhook*:
+
+*Los Webhooks son retrollamadas HTTP registradas en eventos como la publicación de comentarios en un blog. Se activan enviando solicitudes HTTP a una URL específica, permitiendo a los usuarios personalizar la respuesta de la web sin necesidad de nueva infraestructura.. [1](https://es.wikipedia.org/wiki/Webhook)
+
 9. Detro de la carpeta ``webhook`` ejecutaremos:  
 
    ``
@@ -35,3 +43,17 @@
 11. Instalado los requerimientos ejecutaremos   
   
     ``gcloud app deploy``
+
+### Instalar npm y angular:
+
+12. Ir a [https://nodejs.org/en](https://nodejs.org/en)
+
+
+
+
+###  Template para creación de una interfaz de usuario para chatbot usando Angular 
+
+npm install
+npm install -g @angular/cli@6.0.8
+ng build --prod
+gcloud app deploy
