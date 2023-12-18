@@ -56,8 +56,9 @@
 
 
 ###  Template para creación de una interfaz de usuario para chatbot usando Angular 
-
+```bash 
 npm install
 npm install -g @angular/cli@6.0.8
 ng build --prod
 gcloud app deploy
+```
