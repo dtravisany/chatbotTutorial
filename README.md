@@ -44,18 +44,20 @@
   
     ``gcloud app deploy``
 
-### Instalar npm y angular:
+### Instalar npm:
 
 12. Descargar la versión recomendado para usuarios [https://nodejs.org/en](https://nodejs.org/en). 
 ![Version](/images/npm.PNG "NPM DOWNLOADS!").
 
 
+###  Template para creación de una interfaz de usuario para chatbot usando Angular
 
-
-
-
-
-###  Template para creación de una interfaz de usuario para chatbot usando Angular 
+13. Navegar hasta angular-cli:
+```python
+   cd ..
+   cd angular-cli
+ ```
+14. Ejecutar los siguientes comandos para instalar lo que está en el archivo ``packages.json``:
 ```bash 
 npm install
 npm install -g @angular/cli@6.0.8
