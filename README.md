@@ -26,4 +26,9 @@
  
 8. Navegaremos hasta la carpeta ``webhook``.
 
-9. 
+9. Detro de la carpeta ``webhook`` ejecutaremos:  
+
+   ``pip install -t lib -r requirements
+     gcloud app deploy``
+  
+11. 
