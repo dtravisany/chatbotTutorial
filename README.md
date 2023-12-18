@@ -4,7 +4,7 @@
 
 1. Descargar el siguiente [zip](https://drive.google.com/file/d/1Clp3mQFja-ySd9LFG296LJi-gsUPtyDm/view?usp=drive_link) o clonar el repositorio desde el [github de google](https://github.com/GoogleCloudPlatform/dialogflow-chatbot):
   
-        `` git clone https://github.com/GoogleCloudPlatform/dialogflow-chatbot.git``
+        git clone https://github.com/GoogleCloudPlatform/dialogflow-chatbot.git
 
 2. Si descargó el .zip, descomprimir en una carpeta que sea de fácil acceso.
   
@@ -24,3 +24,4 @@
    
     `` conda install pip `` 
  
+8. 
