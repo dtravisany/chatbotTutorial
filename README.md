@@ -31,8 +31,7 @@
    ``
      pip install -t lib -r requirements  
   ``
-  ``      
-     gcloud app deploy  
-   ``
   
-11. 
+11. Instalado los requerimientos ejecutaremos   
+  
+    ``gcloud app deploy``
