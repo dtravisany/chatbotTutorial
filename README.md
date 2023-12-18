@@ -30,7 +30,8 @@
 
    ``
      pip install -t lib -r requirements  
-  
+  ``
+  ``      
      gcloud app deploy  
    ``
   
