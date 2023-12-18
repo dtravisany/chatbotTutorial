@@ -46,10 +46,10 @@
 
 ### Instalar npm y angular:
 
-12. Descargar la versión recomendado para usuarios. 
+12. Descargar la versión recomendado para usuarios [https://nodejs.org/en](https://nodejs.org/en). 
 ![Version](/images/npm.PNG "NPM DOWNLOADS!").
 
-[https://nodejs.org/en](https://nodejs.org/en)
+
 
 
 
